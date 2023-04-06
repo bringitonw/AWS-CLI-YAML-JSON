@@ -1,0 +1,14 @@
+# aws configure
+To set up your aws CLI configuration on your PC
+
+To create a bucket on CLI
+aws s3 mb s3://bucket-name
+
+To Uplaod a file in a bucket
+aws s3 cp file.txt s3://bucket-name
+
+To delete a file
+aws s3 rm s3://bucket-name/file.txt
+
+To describe instances
+aws ec2 describe-instances
